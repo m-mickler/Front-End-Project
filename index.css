@@ -1,10 +1,94 @@
-
- #map {
+html {
     height: 100%;
-  }
+}
 
-  html,body {
-    height: 100%;
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("golf.jpg");
+    /* position: absolute; */
+    top: 90px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+head {
+    position: absolute;
+    height: 90px;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+h1 {
+    font-size: 60px;
+    margin-left: 35%;
+}
+
+form {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+div {
+    z-index: -10;
+    border-radius: 7px;
+}
+
+#map {
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    border: 2px solid black;
     margin: 0;
-    padding: 0;
-  }
+}
+
+input {
+    border-radius: 5px;
+    height: 40px;
+    font-size: larger;
+    width: 300px;
+}
+
+button {
+    border-radius: 5px;
+    height: 40px;
+    font-size: larger;
+}
+
+span {
+    position: absolute;
+    right: 10px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.361);
+    border-radius: 6px;
+}
+
+h2 {
+    font-size: xx-large;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+h4 {
+    font-size: x-large;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+h5 {
+    font-size: x-large;
+    font-style: italic;
+    color: whitesmoke;
+}
+
+.image {
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+    border: 4px white;
+
+}
